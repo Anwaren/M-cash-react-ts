@@ -1,0 +1,188 @@
+@import '../../common-styles/common';
+
+.header-section
+{
+    display: flex;
+    width: 1280px;
+    height: 745px;
+    
+    flex-direction: column;
+    position: relative;
+}
+
+.header-content-section
+{
+    width: 1280px;
+    height: 721px;
+    background-color: #F9F7F7;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header-head
+{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 55px;
+    padding-right: 48px;
+}
+
+.contacts-section
+{
+    width: 388px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts-us-text
+{
+    font-family: "Roboto";
+    font-size: 16px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.contacts-us-element
+{
+    width: 131px; 
+    height: 51px;
+    border-radius: 10px;
+    border: 1px solid #4D4D4D;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Roboto";
+    color: #3F72AF;
+    padding: 0;
+}
+
+.contacts-us-element:active, 
+.contacts-us-element:focus {
+    outline: none;
+}
+
+.header-info-section
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-info-text-section
+{
+    width: 554px; 
+    height: 621px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-info-text
+{
+    width: 372px; 
+    height: 441px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-info-text-data
+{
+    width: 372px; 
+    height: 241px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.big-text
+{
+    font-size: 50px;
+    color: #1A1A1A;
+}
+
+.small-text
+{
+    font-size: 21px;
+    color: #1A1A1A;
+    font-family: "Roboto";
+}
+
+.header-info-text-controls
+{
+    width: 372px; 
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-control
+{ 
+    height: 51px;
+    border-radius: 25px;
+    background-color: #DBE2EF;
+    border: none;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.header-control:active, 
+.header-control:focus {
+    outline: none;
+}
+
+.phone-number-control
+{
+    width: 371px;
+    padding-left: 21px;
+}
+
+.day-submit-div
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.day-control
+{
+    width: 171px;
+    padding-left: 21px;
+}
+
+.submit-control
+{
+    background-color: #3F72AF;
+    width: 171px;
+    text-align: center;
+}
+
+
+.header-info-picture-section
+{
+    width: 726px; 
+    height: 621px;
+
+    background-color: #DBE2EF;
+    position:relative;
+    display: flex;
+    justify-content:center;
+}
+
+.header-info-picture-img
+{
+    position: absolute;
+    bottom: -25px;
+    
+}
+
+.header-info-picture-img img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+:root {
+  --light-blue-color: #3F72AF;
+  --deep-blue-color: #112D4E;
+}
+
+
+.flex-container {
+    max-width: 1280px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-title
+{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.section-title-header-text
+{
+  font-family: "Playfair Display";
+  font-size: 36px;
+  color: var(--deep-blue-color)
+}
+
+.section-title-line
+{
+  width: 41px;
+  height: 2px;
+  border-bottom: 1px solid #3f72af;
+  margin-top: 15px;
+  margin-bottom: 17px;
+}
+
+.section-title-text
+{
+  color: #4D4D4D;
+  font-family: "Roboto";
+  font-size: 14px;
+  text-transform: uppercase;
+}
